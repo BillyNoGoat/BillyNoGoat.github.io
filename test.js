@@ -1,3 +1,3 @@
-alert("v2");
-localStorage.getItem('token');
+let token = localStorage.getItem('token');
 console.log(token);
+alert(token);
