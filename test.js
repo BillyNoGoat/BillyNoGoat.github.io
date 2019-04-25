@@ -1,4 +1,3 @@
-alert("v1");
-var ifrLocalStorage = iframe.contentWindow.localStorage;
-var token = ifrLocalStorage.getItem('token');
-alert(token);
+alert("v2");
+localStorage.getItem('token');
+console.log(token);
